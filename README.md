@@ -10,46 +10,21 @@ Performance, efficiency, and computational complexity are compared.
 
 2. Input Summary
 
-The input data was read from input.json, containing weighted undirected graphs representing city districts (nodes) and road costs (edges).
-{
-  "graphs": [
-    {
-      "id": 1,
-      "nodes": ["A", "B", "C", "D", "E"],
-      "edges": [
-        {"from": "A", "to": "B", "weight": 4},
-        {"from": "A", "to": "C", "weight": 2},
-        {"from": "B", "to": "C", "weight": 1},
-        {"from": "B", "to": "D", "weight": 5},
-        {"from": "C", "to": "D", "weight": 8},
-        {"from": "C", "to": "E", "weight": 10},
-        {"from": "D", "to": "E", "weight": 2}
-      ]
-    },
-    {
-      "id": 2,
-      "nodes": ["A", "B", "C", "D", "E", "F"],
-      "edges": [
-        {"from": "A", "to": "B", "weight": 3},
-        {"from": "A", "to": "C", "weight": 1},
-        {"from": "B", "to": "C", "weight": 7},
-        {"from": "B", "to": "D", "weight": 5},
-        {"from": "C", "to": "E", "weight": 4},
-        {"from": "D", "to": "E", "weight": 2},
-        {"from": "D", "to": "F", "weight": 6},
-        {"from": "E", "to": "F", "weight": 3}
-      ]
-    }
-  ]
-}
-
+<img width="714" height="900" alt="image" src="https://github.com/user-attachments/assets/f5b58597-456d-4a58-bb01-6cf97915feb9" />
 
 3. Result Table
+
+
 <img width="1190" height="156" alt="image" src="https://github.com/user-attachments/assets/88790b67-07ac-4532-b2bc-b6f7815dbde0" />
+
 
 <img width="1265" height="151" alt="image" src="https://github.com/user-attachments/assets/6323e432-e048-4c57-b246-00cdd6d6d955" />
 
+
+
 4.Comparison and Analysis Table
+
+
 <img width="1212" height="314" alt="image" src="https://github.com/user-attachments/assets/72b7646c-86c0-4913-984b-8908cf44d36c" />
 
 
