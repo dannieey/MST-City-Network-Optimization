@@ -1,0 +1,31 @@
+{
+  "graphs": [
+    {
+      "id": 1,
+      "nodes": ["A", "B", "C", "D", "E"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 4},
+        {"from": "A", "to": "C", "weight": 2},
+        {"from": "B", "to": "C", "weight": 1},
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "D", "weight": 8},
+        {"from": "C", "to": "E", "weight": 10},
+        {"from": "D", "to": "E", "weight": 2}
+      ]
+    },
+    {
+      "id": 2,
+      "nodes": ["A", "B", "C", "D", "E", "F"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 3},
+        {"from": "A", "to": "C", "weight": 1},
+        {"from": "B", "to": "C", "weight": 7},
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "E", "weight": 4},
+        {"from": "D", "to": "E", "weight": 2},
+        {"from": "D", "to": "F", "weight": 6},
+        {"from": "E", "to": "F", "weight": 3}
+      ]
+    }
+  ]
+}
